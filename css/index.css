@@ -1,0 +1,136 @@
+#wrap {
+    position: relative;
+}
+/* 메인화면 */
+.sectionmain {
+    position: relative;
+    width: 100vw;
+    height: 1080px;
+    
+    background-image: url("../img/main_bg.png");
+    background-size: cover;
+    background-position: center;
+}
+.sectionmain .maintext {
+    position: relative;
+    left: 10%;
+    top: 20%;
+}
+.sectionmain .maintext .title {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    
+    width: 100%;
+}
+.sectionmain .maintext .title p {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 182px;
+    
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 52px;
+    color: rgba(255, 255, 255, 0.83);
+}
+.sectionmain .maintext .title h1 {
+    color: #FFFFFF;
+    margin-top: 14px;
+
+    font-family: 'Jalnan OTF';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 106px;
+}
+.sectionmain .mainbutton {
+    margin-left: -1%;
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    left: 10%;
+    top: 60%;
+}
+.sectionmain .mainbutton div {
+    margin-top: 3px;
+    margin-left: 5%;
+    padding-top: 2%;
+    width: 228px;
+    height: 50px;
+    line-height: 29px;
+
+    opacity: 100%;
+}
+.sectionmain .mainbutton div:hover {
+    box-shadow: #ffffffa2 7px;
+}
+.sectionmain .title h1 span {
+    font-family: 'Noto Sans KR';
+}
+/* 메인이미지 애니메이션 */
+.sectionmain .mainimg {
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0%;
+    right: 10%;
+    
+    animation: ImageUpDown 0.9s ease 0s infinite alternate; 
+}
+.sectionmain .mainimg img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+@keyframes ImageUpDown {
+0% {margin-top: 150px;}
+100% {margin-top: 180px;}
+}
+
+.profile {
+    padding-top: 10%;
+    margin-left: 3%;
+    display: flex;
+}
+.profile .profielwrap {
+    margin-left: 2%;
+    display: block;
+    list-style-type: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+
+    text-align: center;
+    color: #B278DF;
+}
+.profile .profileimg {
+    margin-bottom: 20px;
+    background-color: #DBD8FF;
+    border-radius: 50%;
+    padding: 40px;
+}
+.profile .profiletext {
+    text-align: center;
+}
+.email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+
+    color: #E7E7E7;
+}
+.copyright {
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+.copyright p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #E7E7E7;
+}

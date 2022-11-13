@@ -1,0 +1,229 @@
+
+.section5 {
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    position: relative;
+    width: 100vw;
+    height: 1080px;
+
+    background-color: #202C56;
+}
+.section5 .logodesign {
+    display: flex;
+    list-style-type: none;
+}
+.section5 .logodesign li {
+    margin-top: 15px;
+    margin-right: 3%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+
+    color: #C1C1C1;
+}
+.section5 .logodesign li span {
+    margin-left: 5%;
+}
+.section5 .logotext h3 {
+    margin-top: 7%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.section5 .logotext p {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.section5 .typodesign {
+    margin-top: 10%;
+}
+.section6 {
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-top: 15%;
+    position: relative;
+    width: 100vw;
+    height: 1300px;
+
+    background-color: #DBE5FF;
+    text-align: center;
+}
+.section6 .charcterimg {
+    position: relative;
+    display: inline-block;
+    background-image: url("../img/charcter.png");
+    background-size: cover;
+    background-position: center;
+    width: 1500px;
+    height: 850px;
+    border-radius: 32px;
+    text-align: center;
+}
+.section6 .charctertext {
+    margin-top: 5%;
+    text-align: center;
+}
+.section6 .charctertext h3 {
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
+.section6 .charctertext p {
+    margin: 0 auto;
+    padding: 2%;
+    width: 1500px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    border-radius: 32px;
+    background-color: #F4F6FF;
+    color: #555555;
+}
+.section7 {
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-top: 15%;
+    position: relative;
+    width: 100vw;
+    height: 1000px;
+
+    background-color: #202C56;
+    text-align: left;
+}
+.section7 .colorimg {
+    margin-left: 20%;
+    position: relative;
+    display: inline-block;
+    background-image: url("../img/colorchart.png");
+    background-size: cover;
+    background-position: center;
+    width: 1257px;
+    height: 582px;
+    text-align: left;
+}
+.section7 .colortext {
+    margin-left: 10%;
+    text-align: left;
+}
+.section7 .colortext h3 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 57px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.section7 .colortext p {
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+.section8 {
+    margin-top: 0%;
+    margin-left: 0%;
+    padding-top: 10%;
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+.section8 .test {
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+.section8 .testtext {
+    text-align: center;
+}
+.section8 .testtext h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+
+    text-align: center;
+    color: #5242BB;
+}
+.section8 .testtext h4 {
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+
+    color: #5141BB;
+}
+.section8 .testtext p {
+    margin-top: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #787878;
+}
+.section8 .test img {
+    margin-top: 5%;
+}
+.section8 .result {
+    margin-left: 0%;
+    position: relative;
+    padding-top: 30px;
+    width: 100vw;
+    height: 1200px;
+    /* background-color: #202C56; */
+    text-align: left;
+}
+.section8 .result h3 {
+    margin-top: 10%;
+    margin-left: 15%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+
+    color: #5242BB;
+}
+.section8 .result h4 {
+    margin-top: 32px;
+    margin-left: 15%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46px;
+
+    color: #5141BB;
+}
